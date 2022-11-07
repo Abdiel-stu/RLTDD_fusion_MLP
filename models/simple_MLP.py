@@ -1,3 +1,6 @@
+import torch
+import torch.nn as nn
+
 class simpleMLP(nn.Module):
     def __init__(self,args):
         super(simpleMLP,self).__init__()
