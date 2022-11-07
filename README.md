@@ -8,3 +8,8 @@ All extracted features should be placed in data folder. We use the following too
 - Audio embeddings extracted with [VGGVox](https://www.robots.ox.ac.uk/~vgg/publications/2019/Nagrani19/nagrani19.pdf)
 
 Extracted features to run the example in train.py are available as csv or embeddings [here](https://drive.google.com/drive/folders/1hTiR3Xhz4fjF5Fa7hrlYc6jDxOncyPF3?usp=share_link)
+
+# Replicated networks
+Implementations of two CNN-based works are upload as one file python scripts. Replicated works:
+- "[LieNet](https://ieeexplore.ieee.org/abstract/document/9446553): A Deep Convolution Neural Network Framework for Detecting Deception, M.Karnati et al."
+- "[Deep learning driven multimodal fusion for automated deception detection](https://ieeexplore.ieee.org/abstract/document/8285382), M. Gogate et al." 
