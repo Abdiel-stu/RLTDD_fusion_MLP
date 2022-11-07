@@ -1,3 +1,5 @@
+# dataset, data loader and train functions are modified version of 
+# Multimodal BERT implementation https://github.com/facebookresearch/mmbt
 #Import libraries
 import math
 import sys
