@@ -13,9 +13,9 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn import svm
 from sklearn import tree
 
-import models.fusion
-import models.mlp
-import models.utils
+from models.fusion import biGMU, triGMU_sigmoid, triGMU_softmax, triGMU_hierarchical, DMRN, TMRN
+from models.mlp import simpleMLP, concat_simpleMLP
+from models.utils import get_DataLoader, model_eval, model_train
 #Functions to load dataset features
     #Funtcions to load OpenFace extracted features
   
